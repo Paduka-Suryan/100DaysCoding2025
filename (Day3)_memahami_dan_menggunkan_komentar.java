@@ -6,7 +6,7 @@ public class Main {
 		yg bisa membuat
 		beberapa baris */
 		
-		/**ini adalah komentar untuk dokumentasi
+		/**ini adalah komentar untuk dokumentasi, 
 		Javadoc dapat memproses komentar ini untuk
 		menghasilkan dokumentasi HTML resmi dari kode anda,
 		yang sangat berguna bagi pengembang lain*/
