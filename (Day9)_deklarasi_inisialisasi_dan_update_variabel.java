@@ -15,7 +15,6 @@ public class main {
         //ini update variabel
         usia = 19;
         System.out.println("Usia sekarang :"+usia);
-        
-        //ini inisialisasi
     }
 }
+
