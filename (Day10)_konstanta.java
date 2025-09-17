@@ -3,7 +3,7 @@ package paduka;
 public class Paduka {
     public static void main(String[] args) {
         
-        //konsanta adalah variabel yang tidak bisa diubah setelah diberi nilai awal.
+        //konstanta adalah variabel yang tidak bisa diubah setelah diberi nilai awal.
         
         final String iniKonstanta = "contoh 1";
         // iniKonstanta = "contoh"; ERROR! Tidak bisa diubah
@@ -16,5 +16,6 @@ public class Paduka {
     }
     
 }
+
 
 
