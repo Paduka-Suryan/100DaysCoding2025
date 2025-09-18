@@ -1,6 +1,6 @@
 public class Main {
 	public static void main(String[] args) {
-		String a,b,c,d,e,f;
+		String a,b,c,d;
 		a="Paduka";
 		b="Informatika";
 		c="19 tahun";
