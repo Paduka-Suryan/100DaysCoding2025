@@ -5,7 +5,7 @@ public class paduka {
         Scanner sc = new Scanner(System.in);
         
         System.out.println("\nMasukkan Nama Anda: ");
-        String username = sc.nextLine();
+        String nama = sc.nextLine();
         sc.close();
     }
 }
