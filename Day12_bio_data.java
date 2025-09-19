@@ -25,7 +25,7 @@ public class Day12_bio_data {
         String hobi = input.nextLine();
 
         System.out.println("\n=== BIODATA ANDA ===");
-        System.out.printf("%s%s%n","Nama\t: ",nama);
+        System.out.printf("%s%s%n","Nama\t: ", nama);
         System.out.printf("%s%s%n","NIM\t: ", nim);
         System.out.printf("%s%s tahun%n","Umur\t: ", umur);
         System.out.printf("%s%s%n","Gender\t: ", gender);
@@ -36,3 +36,4 @@ public class Day12_bio_data {
     }
 
 }
+
