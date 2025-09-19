@@ -4,7 +4,7 @@ public class Day12_bio_data {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("=== BIO DATA SISWA ===");
+        System.out.println("=== BIO DATA MAHASISWA ===");
 
         System.out.print("Masukkan Nama: ");
         final String nama = input.nextLine();
@@ -34,4 +34,5 @@ public class Day12_bio_data {
         input.close();
         
     }
+
 }
