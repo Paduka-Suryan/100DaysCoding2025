@@ -13,7 +13,7 @@ public class Day14_string_menjadi_tipedata_primitif {
         
         //string ke integer
         String strInt = "123";
-        int c = Int.parseInt(strInt);
+        int c = Integer.parseInt(strInt);
         System.out.println("String berubah menjadi integer: " + c);
 
         //string ke long
@@ -34,7 +34,7 @@ public class Day14_string_menjadi_tipedata_primitif {
         //string ke boolean
         String strBoolean = "true";
         boolean g = Boolean.parseBoolean(strBoolean);
-        System.out.println("String berubah menjadi boolean: " + i);
+        System.out.println("String berubah menjadi boolean: " + g);
 
         //string ke char
         String strChar = "A";
@@ -43,4 +43,5 @@ public class Day14_string_menjadi_tipedata_primitif {
     }
     
 }
+
 
