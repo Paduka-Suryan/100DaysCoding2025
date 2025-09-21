@@ -41,9 +41,10 @@ public class Day13_evaluasi_mentor_soal1 {
         System.out.println(h);
         System.out.println(i);
         System.out.println(j);
+        System.out.ptintln(k);
         System.out.println(l);
         System.out.println(m);
-        System.out.println(m);
+        System.out.println(n);
         System.out.println(tes1);
         System.out.println(tes2);
         System.out.println(q);
@@ -102,3 +103,4 @@ public class Day13_evaluasi_mentor_soal1 {
 
     
 }
+
