@@ -8,8 +8,8 @@ public class Day15_penjumlahan_pengurangan {
         System.out.print("Masukkan Angka Kedua : ");
         int angka2 = sc.nextInt();
 
-        System.out.println("Hasil Penjumlahan : "+(angka+angka2));
-        System.out.println("Hasil Pengurangan : "+(angka-angka2));
+        System.out.println((angka)+" + "+(angka2)+" = "+(angka+angka2));
+        System.out.println((angka)+" - "+(angka2)+" = "+(angka-angka2));
 
         sc.close();
     }
