@@ -5,10 +5,11 @@ public class Day19_konversi_paksa_TipeDataBesarKeKecil {
         System.out.println("===Konversi Paksa Dari Tipe Data Besar Ke Kecil===");
         System.out.print("Masukkan nilai a (long) = ");
         long a = sc.nextLong();
-        byte b = (byte) a; // paksa konversi dari int ke byte
+        byte b = (byte) a; // paksa konversi dari long ke byte
         System.out.println("nilai a = " + a);
         System.out.println("nilai b = " + b);
         sc.close();
     }
     
 }
+
