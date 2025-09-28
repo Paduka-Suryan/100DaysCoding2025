@@ -13,12 +13,8 @@ public class Day21_menukar_nilai_variabel {
 
         // Menukar nilai menggunakan variabel sementara
         int tukar = a;
-        a = c;
-        c = tukar;
-        tukar = b;
+        a = b;
         b = c;
-        c = tukar;
-        tukar = c;
         c = d;
         d = tukar;
         
@@ -30,3 +26,4 @@ public class Day21_menukar_nilai_variabel {
     }
     
 }
+
