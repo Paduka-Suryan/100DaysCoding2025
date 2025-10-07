@@ -6,7 +6,8 @@ public class Day30_operator_perbandingan {
 
         System.out.println("a >= b: " + (a >= b)); // true
         System.out.println("a <= b: " + (a <= b)); // false
-        System.out.println("a <= c: " + (a == c)); // true
+        System.out.println("a <= c: " + (a <= c)); // true
     }
 
 }
+
