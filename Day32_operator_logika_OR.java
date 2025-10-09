@@ -1,4 +1,4 @@
-public class OperatorOR {
+public class main {
     public static void main(String[] args) {
         // Operator OR (||) - hasilnya true jika salah satu true
         System.out.println("true  || true  = " + (true || true));
