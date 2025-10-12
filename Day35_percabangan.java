@@ -7,7 +7,7 @@ public class main {
         int nilai = sc.nextInt();
         
         if (nilai >= 70){
-            System.out.print("Selamat, anda lulus");
+                System.out.print("Selamat, anda lulus");
             }else {
                 System.out.print("Maaf, anda blum lulus");
             }
