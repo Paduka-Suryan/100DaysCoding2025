@@ -33,9 +33,11 @@ public class Main {
 		}else if (menu1 == 2){
 		    System.out.println("\nAnda memesan "+jumlah+" Kapal Api");
 		    System.out.println("Total bayar Rp"+jumlah*kapalapi);
-		}else{
+		}else if (menu1 == 3){
 		    System.out.println("\nAnda memesan "+jumlah+" Kopi Hytam");
 		    System.out.println("Total bayar Rp"+jumlah*hytam);
+		}else{
+		    System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		
 		System.out.println("\nPilih metode pembayaran: " + 
@@ -46,8 +48,10 @@ public class Main {
 		
 		if ( bayar == 1){
 		    System.out.println("Pembayaran dengan Cash. Silahkan bayar di kasir");
-		}else{
+		}else if ( bayar == 2){
 		    System.out.println("\nPembayaran dengan QRIS. Silahkan scan QR");
+		}else{
+		    System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		
 		}else if(kategori == 2){
@@ -69,6 +73,8 @@ public class Main {
 		}else if(menu == 3){
 		    System.out.println("\nAnda memesan "+jumlah+" jeruk");
 		    System.out.println("Total bayar Rp"+jumlah*jeruk);
+		}else{
+		    System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		
 		System.out.println("\nPilih metode pembayaran: " + 
@@ -79,15 +85,17 @@ public class Main {
 		
 		if ( bayar == 1){
 		    System.out.println("Pembayaran dengan Cash. Silahkan bayar di kasir");
-		}else{
+		}else if(bayar == 2){
 		    System.out.println("\nPembayaran dengan QRIS. Silahkan scan QR");
+		}else{
+		    System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		    
-		}else if (kategori == 3){
+		}else if(kategori == 3){
 		    System.out.println("\nDadahh");
 		
 		}else{
-			System.out.println("\nAngka yang anda masukkan tidak valid");
+		    System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		
 		System.out.println("\n=== Terima kasih telah berbelanja di ISC Cafe! ===");
