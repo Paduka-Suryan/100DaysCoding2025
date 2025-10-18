@@ -83,8 +83,11 @@ public class Main {
 		    System.out.println("\nPembayaran dengan QRIS. Silahkan scan QR");
 		}
 		    
+		}else if (kategori == 3){
+		    System.out.println("\nDadahh");
+		
 		}else{
-		    System.out.println("Dadahh");
+			System.out.println("\nAngka yang anda masukkan tidak valid");
 		}
 		
 		System.out.println("\n=== Terima kasih telah berbelanja di ISC Cafe! ===");
