@@ -2,41 +2,27 @@ import java.util.Scanner;
 
 public class Day45_percabangan_switch {
     public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
+        Scanner sc = new Scanner (System.in);
+        System.out.print("Masukkan Nilai (A-E): ");
+        char grade = sc.next().charAt(0);
         
-        System.out.println("=== PROGRAM KATEGORI NILAI ===");
-        System.out.print("Masukkan nilai (0-100): ");
-        int nilai = input.nextInt();
-        
-        // Konversi nilai ke kategori
-        int kategori = nilai / 10;
-        
-        switch (kategori) {
-            case 10:
-            case 9:
-                System.out.println("Nilai " + nilai + " = A (Excellent)");
+        switch (grade) {
+            case 'A':
+                System.out.println("Excellent!");
                 break;
-            case 8:
-                System.out.println("Nilai " + nilai + " = B (Very Good)");
+            case 'B':
+                System.out.println("Good job!");
                 break;
-            case 7:
-                System.out.println("Nilai " + nilai + " = C (Good)");
+            case 'C':
+                System.out.println("Well done");
                 break;
-            case 6:
-                System.out.println("Nilai " + nilai + " = D (Fair)");
+            case 'D':
+                System.out.println("You passed");
                 break;
-            case 5:
-            case 4:
-            case 3:
-            case 2:
-            case 1:
-            case 0:
-                System.out.println("Nilai " + nilai + " = E (Failed)");
+            case 'E':
+                System.out.println("Try again");
                 break;
             default:
-                System.out.println("Nilai tidak valid!");
+                System.out.println("Invalid grade");
         }
-        
-        input.close();
     }
-}
