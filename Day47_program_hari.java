@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class JadwalHarian {
+public class Day47_program_hari {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
