@@ -16,8 +16,7 @@ public class Day48_operator_switchcase {
         double angka2 = input.nextDouble();
         
         double hasil = 0;
-        boolean valid = true;
-        
+
         switch (operator) {
             case '+':
                 hasil = angka1 + angka2;
@@ -33,17 +32,13 @@ public class Day48_operator_switchcase {
                     hasil = angka1 / angka2;
                 } else {
                     System.out.println("Error: Tidak bisa dibagi dengan nol!");
-                    valid = false;
                 }
                 break;
             default:
                 System.out.println("Operator tidak valid!");
-                valid = false;
         }
         
-        if (valid) {
-            System.out.println("Hasil: " + angka1 + " " + operator + " " + angka2 + " = " + hasil);
-        }
+        System.out.println("Hasil: " + angka1 + " " + operator + " " + angka2 + " = " + hasil);
         
         input.close();
     }
