@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day59_GanjilGenap_N1_1N {
+public class Day59_GanjilGenap_N1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
