@@ -9,18 +9,14 @@ public class Day59_GanjilGenap_N1_1N {
         
         System.out.println("\n=== ANGKA 1 SAMPAI " + N + " ===");
         // Cetak 1 sampai N
+        
+        System.out.println("Angka ganjil: ");
         for(int i = 1; i <= N; i+=2) {
             System.out.print(i + " ");
         }
-        
-        System.out.println("\n\n=== ANGKA " + N + " SAMPAI 1 ===");
-        // Cetak N sampai 1
-        for(int i = N; i >= 1; i-=2) {
-            if (N%2==0){
-                System.out.print(i + " ");
-            }else{
-                System.out.print((i - 1)+" ");
-            }
+        System.out.println("\nAngka genap: ");
+        for(int i = 2; i <= N; i+=2){
+            System.out.print(i + " ");
         }
         
         input.close();
