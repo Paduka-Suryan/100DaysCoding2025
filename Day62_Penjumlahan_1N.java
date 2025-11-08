@@ -15,7 +15,7 @@ public class Day58_N1_1N {
             System.out.print(i + " ");
             total += i;
         }
-        System.out.println("\nTotal Penjulmlahan: "+ total);
+        System.out.println("\nTotal Penjumlahan: "+ total);
         input.close();
     }
 }
