@@ -12,10 +12,13 @@ public class Day58_N1_1N {
         System.out.println("\n=== ANGKA 1 SAMPAI " + N + " ===");
         // Cetak 1 sampai N
         for(int i = 1; i <= N; i++) {
-            System.out.print(i + " ");
+            System.out.print(i);
+            if(i<N){
+                System.out.print(" + ");
+            }
             total += i;
         }
-        System.out.println("\nTotal Penjumlahan: "+ total);
+        System.out.println(" = " + total);
         input.close();
     }
 }
