@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Day58_N1_1N {
+public class Day63_perkalian_1N {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         
